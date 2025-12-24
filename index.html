@@ -2,20 +2,89 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>it works</title>
+  <title>My Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      background: black;
-      color: lime;
+      margin: 0;
       font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+    header {
+      padding: 80px 20px;
       text-align: center;
-      padding-top: 150px;
+      background: linear-gradient(135deg, #2563eb, #1e40af);
+    }
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 20px;
+      opacity: 0.9;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+    h2 {
+      color: #60a5fa;
+      margin-bottom: 15px;
+    }
+    .card {
+      background: #111827;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #020617;
+      font-size: 14px;
+      opacity: 0.7;
     }
   </style>
 </head>
 <body>
-  <h1>github pages is working</h1>
-  <p>if you see this, your site is live.</p>
+
+<header>
+  <h1>your name</h1>
+  <p>student • builder • learning web development</p>
+</header>
+
+<section>
+  <h2>about me</h2>
+  <div class="card">
+    <p>
+      i’m a student learning how to build things on the internet.
+      this website is hosted for free using github pages.
+    </p>
+  </div>
+
+  <h2>projects</h2>
+  <div class="card">
+    <p>project 1 — coming soon</p>
+  </div>
+  <div class="card">
+    <p>project 2 — coming soon</p>
+  </div>
+
+  <h2>contact</h2>
+  <div class="card">
+    <p>
+      email: your@email.com <br>
+      github: github.com/yourusername
+    </p>
+  </div>
+</section>
+
+<footer>
+  © 2025 • built with github pages
+</footer>
+
 </body>
 </html>
 
